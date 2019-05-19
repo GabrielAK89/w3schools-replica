@@ -190,7 +190,7 @@ header {
     line-height: 44px;
     font-size: 17px;
     display: inline-block;
-    &.current: {
+    &.current {
       background-color: var(--color-fruit-salad);
     }
     &:hover {
@@ -198,6 +198,7 @@ header {
     }
   }
 }
+
 nav {
   padding-top: 20px;
 
@@ -240,25 +241,24 @@ h3,
 h4,
 h5,
 h6 {
-    margin:15px 0;
+  margin: 15px 0;
 }
 
 h1 {
-    font-size: 36px;
+  font-size: 36px;
 }
 h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 h3 {
-    font-size: 24px;
+  font-size: 24px;
 }
 h4 {
-    font-size: 20px;
+  font-size: 20px;
 }
 h5 {
-    font-size: 18px;
+  font-size: 18px;
 }
 h6 {
-    font-size: 16px;
+  font-size: 16px;
 }
-
