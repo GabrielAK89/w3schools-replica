@@ -182,43 +182,41 @@ nav {
   background-color: var(--color-seashell);
 }
 
-header {
-  a {
-    color: var(--color-scorpion);
-    text-decoration: none;
-    padding: 0 15px;
-    line-height: 44px;
-    font-size: 17px;
-    display: inline-block;
-    &.current {
-      background-color: var(--color-fruit-salad);
-    }
-    &:hover {
-      background-color: var(--color-black);
-    }
+header a {
+  color: var(--color-white);
+  text-decoration: none;
+  padding: 0 15px;
+  line-height: 44px;
+  font-size: 17px;
+  display: inline-block;
+}
+header a.current {
+    background-color: var(--color-fruit-salad);
   }
+header a:hover {
+    background-color: var(--color-white);
+  }
+
+
+nav h3 {
+  padding: 5px 12px;
 }
 
-nav {
-  padding-top: 20px;
-
-  h3,
-  a {
-    padding: 5px 12px;
-  }
-
-  a {
-    color: var(--color-black);
-    text-decoration: none;
-    display: inline-block;
-    width: 100%;
-
-    &:hover {
-      background-color: var(--color-scorpion);
-      color: var(--color-white);
-    }
-  }
+nav a {
+  padding: 5px 12px;
 }
+
+nav a {
+  color: var(--color-black);
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+nav a:hover {
+    background-color: var(--color-scorpion);
+    color: var(--color-white);
+  }
+
 footer {
   display: flex;
   justify-content: center;
@@ -227,13 +225,13 @@ footer {
 
 article {
   padding: 15px;
-
-  p {
+}
+article p {
     margin: 15px 0;
     font-size: 15px;
     line-height: 36px;
   }
-}
+
 
 h1,
 h2,
